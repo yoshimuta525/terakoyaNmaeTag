@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Canvas Form and QR Code Example</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode/build/qrcode.min.js"></script>
+</head>
+<body>
+    <!-- フォームの設定 -->
+    <div class="form-container">
+        <label for="name">名前:</label>
+        <input type="text" id="name" placeholder="名前を入力">
+        <label for="skills">スキル:</label>
+        <input type="text" id="skills" placeholder="スキルを入力">
+        <label for="hobbies">趣味:</label>
+        <input type="text" id="hobbies" placeholder="趣味を入力">
+        <label for="qrLink">QRコードのリンク:</label>
+        <input type="text" id="qrLink" placeholder="リンクを入力">
+    </div>
+    <!-- Canvasタグを追加 -->
+    <canvas id="myCanvas" width="2328" height="3368"></canvas>
+    <!-- ダウンロードボタンを追加 -->
+    <div>
+        <button id="downloadBtn">画像をダウンロード</button>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>

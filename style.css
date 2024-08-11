@@ -1,0 +1,21 @@
+
+body {
+	font-family: Arial, sans-serif;
+}
+
+.form-container {
+	margin-bottom: 20px;
+}
+
+canvas {
+	border: 1px solid black;
+}
+
+#downloadBtn {
+	margin-top: 10px;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
